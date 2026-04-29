@@ -89,10 +89,10 @@ Measures the quality of detection performance.
 ![alt text](image-1.png)
 Shows:
 
-- Correctly detected normal traffic
-- Correctly detected attack traffic
-- False alarms
-- Missed attacks
+- Correctly Detected Normal Traffic (True Negatives): The model successfully identified zero normal connections as "Normal"
+- False Alarms (False Positives): The model took 177 legitimate, normal network connections and incorrectly flagged them as "Attack Traffic"
+- Missed Attacks (False Negatives): The model did not miss a single attack
+- Correctly Detected Attack Traffic (True Positives): The model successfully identified 789 malicious attempts (such as DoS or unauthorized access) as "Attack Traffic"
 
 ### Feature Importance Graph
 

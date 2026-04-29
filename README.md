@@ -43,7 +43,6 @@ The project follows a complete machine learning pipeline:
 ### 1. Data Preprocessing
 
 - Load NSL-KDD dataset
-- Encode categorical features (`protocol_type`, `service`, `flag`)
 - Convert labels into binary classes:
 
 ```
@@ -87,7 +86,7 @@ The system generates:
 Measures the quality of detection performance.
 
 ### Confusion Matrix
-
+![confusion_matrix](results\confusion_matrix.png)
 Shows:
 
 - Correctly detected normal traffic
@@ -96,6 +95,8 @@ Shows:
 - Missed attacks
 
 ### Feature Importance Graph
+
+![feature_importance](results\feature_importance.png)
 
 Displays the top network features influencing predictions.
 

@@ -86,7 +86,7 @@ The system generates:
 Measures the quality of detection performance.
 
 ### Confusion Matrix
-![confusion_matrix](results\confusion_matrix.png)
+![alt text](image-1.png)
 Shows:
 
 - Correctly detected normal traffic
@@ -96,7 +96,7 @@ Shows:
 
 ### Feature Importance Graph
 
-![feature_importance](results\feature_importance.png)
+![alt text](image-2.png)
 
 Displays the top network features influencing predictions.
 

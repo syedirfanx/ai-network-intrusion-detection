@@ -1,4 +1,4 @@
-# ai-network-intrusion-detection
+# AI Network Intrusion Detection
 ## Problem Statement
 
 Modern communication networks, cloud infrastructures, and enterprise systems are continuously exposed to cyber threats such as:
